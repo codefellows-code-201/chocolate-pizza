@@ -4,10 +4,9 @@ font-family: 'Oswald', sans-serif;
 font-family: 'Strait', sans-serif;
 font-family: 'Noto Serif', serif;
 font-family: 'Patrick Hand', cursive; */
-* {
-    outline:solid red 1px;
-
-}
+/* * {
+    outline:solid red 1px; */
+/* } */
 header {
     width:960px;
     margin:auto;
@@ -49,14 +48,17 @@ div img{
     float:left;
     margin-right:1px;
 }
-.right{
+
+.right {
     float:right;
     margin-left:1px;
 }
-.middle{
+
+.middle {
     float:left;
 }
-.hashed-line{
+
+.hashed-line {
     float:left;
     height:12px;
     width:960px;
@@ -71,27 +73,32 @@ div img{
         white 4px
     );
 }
+
 main {
     width: 960px;
     margin:auto;
     margin-top: 25px;
     box-sizing:border-box;
 }
+
 #chocolate-title{
     width:350px;
 }
+
 main #chocolate-title h1{
     float:left;
     font:43px bold;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
 }
+
 main #chocolate-title h4 {
     float:left;
     font-family: 'Strait', sans-serif;
     font-size: 14px;
     color:rgb(112, 111, 111);
 }
+
 #print{
     float:right;
     font-family: 'Strait', sans-serif;
@@ -99,6 +106,7 @@ main #chocolate-title h4 {
     width:49px;
     color: rgb(112, 111, 111);
 }
+
 #print img{
     float:left;
     margin-right:3px;
@@ -111,7 +119,110 @@ main #chocolate-title h4 {
 
 #text p {
     float:left;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: 'Noto Serif', serif;
     font-size:17.5px;
+    color:rgb(112, 111, 111);
+    line-height: 1.5;
+}
+
+#recipe {
+    position:relative;
+    text-align:left;
+    color:rgb(44, 43, 43);
+}
+
+#recipe img {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-top: 30px;
+}
+
+#recipe #left-list {
+    position:absolute;
+    margin-top: 420px;
+    line-height: 1.6;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    margin-left: 75px;
+}
+
+#recipe #right-list {
+    position:absolute;
+    margin-top: 420px;
+    line-height: 1.6;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    margin-left: 475px;
+}
+
+.scored {
+    text-decoration: line-through;
+}
+
+footer {
+    width: 960px;
+    margin:auto;
+    height: 250px;
+    box-sizing:border-box;
+}
+
+#vanessa {
+    float:left;
+    margin-top: 20px;
+}
+
+footer h3 {
+    float:left;
+    font-family: 'Noto Serif', serif;
+    font-size:17.5px;
+    color:rgb(44, 43, 43);
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 20px;
+    width:500px;
+}
+
+button {
+    /* position:absolute; */
+    width:200px;
+    height:50px;
+    background:rgb(149, 94, 54);
+    font-family: 'Strait', sans-serif;
+    color: rgb(203, 202, 202);
+    font-size: 20px;
+    float:right;
+}
+
+footer p {
+    float: left;
+    font-family: 'Noto Serif', serif;
+    font-size:16px;
+    color:rgb(112, 111, 111);
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 1.5;
+    /* width: 400px; */
+}
+
+footer hr {
+    position: absolute;
+    margin-top: 871px;
+    width:960px;
+    z-index:-3;
+}
+#footer-detail {
+    width:960px;
+    margin-top:20px;
+    float:right;
+    z-index: 2;
+    margin-right:410px;
+}
+
+#footer-text{
+    margin-left:384px;
+    margin-bottom:100px;
+    font-family: 'Noto Serif', serif;
+    color:rgb(112, 111, 111);
 }
